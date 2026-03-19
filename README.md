@@ -385,6 +385,18 @@ Avaliação local com o mesmo dataset (`datasets/bug_to_user_story.jsonl`) e mod
 | Tracing — Format | [tracing-format.png](docs/screenshots/tracing-format.png) |
 | Tracing — Completeness | [tracing-completeness.png](docs/screenshots/tracing-completeness.png) |
 
+**Pré-visualização (aparecem direto no GitHub):** use `![texto](caminho)` em Markdown. Na tabela acima os links só abrem a imagem ao clicar; abaixo ficam **embutidas** as principais evidências (desde que os arquivos estejam em `docs/screenshots/` no repositório).
+
+| Resultado `evaluate.py` (APROVADO) | Dashboard / traces no LangSmith |
+|:----------------------------------:|:---------------------------------:|
+| ![Saída do evaluate com métricas](docs/screenshots/retorno-medias-aprovadas.png) | ![Visão do projeto no LangSmith](docs/screenshots/dashboard-trace.png) |
+
+| v2 aprovado (métricas) | Tracing — avaliador Format |
+|:----------------------:|:--------------------------:|
+| ![Avaliação v2](docs/screenshots/avaliacao-v2-aprovado.png.png) | ![Tracing Format](docs/screenshots/tracing-format.png) |
+
+*Demais capturas: use os links da tabela ou abra [`docs/screenshots/README.md`](docs/screenshots/README.md).*
+
 ---
 
 ## Como Executar

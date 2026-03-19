@@ -44,7 +44,7 @@ ENV/
 # Logs
 *.log
 
-# Project specific
-screenshots/
+# Project specific (só na raiz; docs/screenshots/ é versionado para evidências)
+/screenshots/
 results/
 .claude/
